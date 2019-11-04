@@ -1,0 +1,39 @@
+{
+  "name": "teamwork-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "description": "This is a project from the DEVCWITHANDELA PROGRAM ....Teamwork is an internal social network for employees of an organization. The goal of this application is to facilitate more interaction between colleagues and promote team bonding.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phawazzzy/TEAMWORK_api.git"
+  },
+  "keywords": [
+    "#",
+    "TEAMWORK"
+  ],
+  "author": "KAREEM FAWAS OLAMILEKAN.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phawazzzy/TEAMWORK_api/issues"
+  },
+  "homepage": "https://github.com/phawazzzy/TEAMWORK_api#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jasmine": "^3.5.0"
+  }
+}
