@@ -7,5 +7,5 @@ script: npm test
 notification:
   email: phawazzzy@gmail.com
 
-before_install:
-  - npm i -g npm@version-number
+# before_install:
+#   - npm i -g 
